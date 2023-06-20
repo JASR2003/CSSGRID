@@ -6,10 +6,12 @@ body {
     border: 5px solid rgb(255, 255, 255);
     background-color: rgb(82, 82, 82);
     display: grid;
-    grid-template-rows: 150px 150px 150px;
+    grid-template-rows: 150px 150px;
     grid-auto-columns: 150px;
     grid-auto-flow: column;
     gap: 20px;
+    place-content: center;
+    place-items: end;
 }
 
 .container .item {
