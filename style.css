@@ -17,3 +17,18 @@ body {
     font-size: 40px;
     color: white;
 }
+
+/* todo esto es para los items */
+/* justify-items = alineamiento horizontal*/
+/* align-items = alineamiento vertical*/
+/* place-items = alineamiento h y v*/
+
+/* todo esto es para los contenedores */
+/* justify-content = alineamiento horizontal*/
+/* align-content = alineamiento vertical*/
+/* place-content = alineamiento h y v*/
+
+/* todo esto es para el item */
+/* justify-self = alineamiento horizontal*/
+/* align-self = alineamiento vertical*/
+/* place-self = alineamiento h y v*/
