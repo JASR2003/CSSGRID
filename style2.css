@@ -11,7 +11,7 @@ grid-area: 1 / 2 / 1 / 2; grid-area: [row-start] / [column-start] / [row-end] / 
     border: 5px solid #e1bee7;
     background: white;
     display: grid;
-    grid-template-columns: repeat(3, 150px);
+    grid-template-columns:repeat(3, calc(100% / 3));
     grid-template-rows: repeat(3, 75px);
     grid-template-areas:
     "header header header"

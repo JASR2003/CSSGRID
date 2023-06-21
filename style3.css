@@ -1,0 +1,9 @@
+.container {
+    border: 5px solid #e1bee7;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3));  /* se repiten 3 veces la tercera parte de 100% */
+    grid-template-rows: repeat(3, 75px);  /* se repiten 3 veces 75px */
+    place-content: center;
+    /* minmax(50px, 350px); sirve para poner un minimo y un maximo del tamaño */
+}
