@@ -1,0 +1,9 @@
+/* fr: unidad de medida de CSS Grid que distribuye el espacio disponible en partes iguales entre las columnas o filas. Ejemplo: grid-template-columns: 1fr 2fr 1fr. */
+
+/* max-content: valor de tamaño de contenido máximo, el elemento se expande al ancho máximo de su contenido. Ejemplo: width: max-content. */
+
+/* min-content: valor de tamaño de contenido mínimo, el elemento se reduce al ancho mínimo de su contenido. Ejemplo: width: min-content. */
+
+/* auto-fill: valor de repetición de pista automático, crea tantas filas o columnas como quepan en el contenedor sin especificar una cantidad exacta. Ejemplo: grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)). */
+
+/* auto-fit: valor de repetición de pista que ajusta la cantidad de filas o columnas a la cantidad necesaria para llenar el espacio disponible. Ejemplo: grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)). */
