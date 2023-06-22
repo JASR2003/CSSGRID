@@ -73,7 +73,7 @@ button:active {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(2, 180px);
+    grid-template-rows: repeat(2, 200px);
     grid-template-areas:
     "big big mid-1 mid-2"
     "big big mid-3 mid-4";
